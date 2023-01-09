@@ -2,7 +2,7 @@
 #include <cmath>
 #include <iostream>
 #include <string>
-
+#include "MathFunctions.h"
 #include "TutorialConfig.h"
 
 // TODO 11: Only include MathFunctions if USE_MYMATH is defined
@@ -27,7 +27,7 @@ int main(int argc, char* argv[])
   // TODO 6: Replace sqrt with mysqrt
 
   // calculate square root
-  const double outputValue = sqrt(inputValue);
+  const double outputValue = mysqrt(inputValue);
   std::cout << "The square root of " << inputValue << " is " << outputValue
             << std::endl;
   return 0;
